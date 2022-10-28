@@ -6,7 +6,7 @@ let package = Package(
     name: "SwiftSMTP",
     products: [
         .library(
-            name: "SwiftSMTP",
+            name: "SwiftSMTPLibrary",
             targets: ["SwiftSMTP"]),
         ],
     dependencies: [
