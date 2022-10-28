@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "SwiftSMTPLibrary",
-            targets: ["SwiftSMTP"]),
+            targets: ["SwiftSMTPCore"]),
         ],
     dependencies: [
         .package(url: "https://github.com/Kitura/BlueSocket.git", from: "2.0.2"),
