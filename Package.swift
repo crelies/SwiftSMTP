@@ -21,6 +21,6 @@ let package = Package(
             dependencies: ["Socket", "SSLService", "Cryptor", "LoggerAPI"]),
         .testTarget(
             name: "SwiftSMTPTests",
-            dependencies: ["SwiftSMTP"]),
+            dependencies: ["SwiftSMTPCore"]),
         ]
 )
