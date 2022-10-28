@@ -17,7 +17,7 @@ let package = Package(
         ],
     targets: [
         .target(
-            name: "SwiftSMTP",
+            name: "SwiftSMTPCore",
             dependencies: ["Socket", "SSLService", "Cryptor", "LoggerAPI"]),
         .testTarget(
             name: "SwiftSMTPTests",
